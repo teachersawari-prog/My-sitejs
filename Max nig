@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameGuardian | Your Name Hub</title>
+    <style>
+        /* Official GG Color Theme */
+        :root {
+            --gg-blue: #2c3e50;
+            --gg-green: #27ae60;
+            --gg-bg: #ebedef;
+            --gg-border: #d1d5da;
+        }
+
+        body { 
+            background-color: var(--gg-bg); 
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+            margin: 0; padding: 0; color: #333;
+        }
+
+        /* Top Navigation Bar */
+        header { 
+            background-color: var(--gg-blue); 
+            color: white; 
+            padding: 12px 20px; 
+            display: flex; justify-content: space-between; align-items: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        .logo { font-size: 1.2rem; font-weight: bold; letter-spacing: 1px; }
+        nav a { color: #bdc3c7; text-decoration: none; font-size: 0.85rem; margin-left: 15px; }
+
+        /* Main Content Container */
+        .main-container { 
+            width: 95%; max-width: 900px; 
+            margin: 15px auto; 
+        }
+
+        /* The Main White Box */
+        .content-box {
+            background: white; 
+            border-top: 4px solid #3498db; 
+            padding: 20px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        }
+
+        h1 { font-size: 1.3rem; margin-top: 0; color: var(--gg-blue); }
+        p { line-height: 1.6; font-size: 0.95rem; color: #555; }
+
+        /* The Big Green Download Button */
+        .download-wrapper { text-align: center; margin: 30px 0; }
+        .btn-download {
+            background-color: var(--gg-green); 
+            color: white; 
+            padding: 15px 40px; 
+            border-radius: 4px; 
+            text-decoration: none; 
+            font-weight: bold; font-size: 1.1rem;
+            display: inline-block;
+            box-shadow: 0 3px 0 #1e8449;
+            transition: 0.2s;
+        }
+        .btn-download:active { transform: translateY(2px); box-shadow: 0 1px 0 #1e8449; }
+
+        /* Feature/Script List Sidebar */
+        .sidebar {
+            background: #fff; 
+            margin-top: 20px; 
+            padding: 15px;
+            border-top: 4px solid #95a5a6;
+        }
+        .sidebar h2 { font-size: 1rem; border-bottom: 1px solid var(--gg-border); padding-bottom: 10px; margin-top: 0; }
+        .sidebar ul { list-style: none; padding: 0; }
+        .sidebar li { 
+            padding: 10px 0; border-bottom: 1px solid #f1f1f1; 
+            font-size: 0.9rem; display: flex; justify-content: space-between;
+        }
+        .sidebar a { color: #3498db; text-decoration: none; font-weight: bold; }
+
+        footer { text-align: center; padding: 30px; color: #7f8c8d; font-size: 0.8rem; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">GameGuardian</div>
+        <nav>
+            <a href="#">Forum</a>
+            <a href="#">Scripts</a>
+        </nav>
+    </header>
+
+    <div class="main-container">
+        <div class="content-box">
+            <h1>Red Ash Master Hub [2026]</h1>
+            <p>Welcome to the official repository for Red Ash. This tool is designed for advanced memory editing on mobile devices, specializing in bypasses for modern 64-bit games.</p>
+            
+            <div style="background: #fdfae3; border: 1px solid #ebe3ad; padding: 10px; font-size: 0.85rem;">
+                <strong>NOTICE:</strong> Make sure you are using a Virtual Space on Honor phones to avoid visual-only errors.
+            </div>
+
+            <div class="download-wrapper">
+                <a href="#" class="btn-download">Download This File</a>
+                <div style="font-size: 0.75rem; color: #888; margin-top: 8px;">Version 1.0.2 (9.4 MB)</div>
+            </div>
+        </div>
+
+        <div class="sidebar">
+            <h2>Recent Releases</h2>
+            <ul>
+                <li><a href="#">RED ASH .LUA</a> <span>v1.2</span></li>
+                <li><a href="#">NEXUS UTILITY</a> <span>v4.0</span></li>
+                <li><a href="#">FORTNITE BYPASS</a> <span>ACTIVE</span></li>
+                <li><a href="#">ZOOBA SPEED FIX</a> <span>UPDATED</span></li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        GameGuardian is a community-driven project. <br>
+        &copy; 2026 RED ASH DEVELOPMENT GROUP | KUWAIT
+    </footer>
+
+</body>
+</html>
